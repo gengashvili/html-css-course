@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* team */
+.teamH2{
+    width: fit-content;
+    margin: 30px auto;
+    font-size: 50px;
+}
+.team{
+    width: 90%;
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+.member{
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    border: 1px black solid;
+    font-size: 30px;
+    text-align: center;
+}
+.member img{
+    width: 60%;
+    text-align: center;
+}
+.membersocialIcons{
+    color: rgb(59, 46, 46);
+    margin: auto;
+    width: fit-content;
+    font-size: 25px;
+}
+.membersocialIcons a{
+    color: rgb(13, 125, 223);
+}
+/* team */
+
+
+/* products */
+.productsH2{
+    width: fit-content;
+    margin: 30px auto;
+    font-size: 50px;
+}
+.products{
+    width: 90%;
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: black;
+}
+.product{
+    width: 20%;
+    height: 100%;
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.product img{
+    width: 60%;
+    text-align: center;
+}
+.product a{
+    color: white;
+}
+/* products */
+
+
+/* services  */
+
+.servicesMain{
+    margin-top: -20px;
+    width: 100%;
+    height: 920px;
+    background-color: blueviolet;
+}
+.servicesMain h2{
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: fit-content;
+    font-size: 50px;
+    color: white;
+}
+.services{
+    margin: auto;
+    width: 1400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.service{
+    width: 400px;
+    height: 300px;
+    margin: auto 30px;
+    color: white;
+    font-size: 20px;
+}
+.service h3{
+    font-size: 30px;
+}
+.service i{
+    margin-right: 8px;
+    color: coral;
+}
+.service a{
+    color: coral;
+}
+.service a:hover{
+    text-decoration: none;
+    color: coral;
+}
+/* services  */
+
+
+/* contact page  */
+.support img{
+    width: 1100px;
+}
+.contactBody{
+    display: flex;
+}
+.contactUs h2{
+    margin-left:250px ;
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+.labelContact, #email, #nameAndLastNAme{
+    display: block;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.labelContact{
+    font-size: 30px;
+    text-decoration: underline;
+}
+#text{
+    display: block;
+    margin-bottom: 15px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 200px;
+    max-height: 200px;
+    padding-left: 10px;
+}
+#submitBtn{
+    margin-left: 280px;
+    width: 120px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.contactInfo h3{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.contactInfo i{
+    color: blue;
+    font-size: 30px;
+    margin-right: 5px;
+}
+.contactInfo span{
+    font-size: 25px;
+}
+.contactInfo div{
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+/* contact page  */
+
+/*registration/login reset's styles*/
+.regBody{
+    /* background-color: rgb(208, 206, 204); */
+    background-image: url(../imgs/regloginbgimg.webp);
+    background-size: 100%;
+    width: 100%;
+}
+.regForm{
+    width: 900px;
+    height:700px;
+    background-color: white;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 140px;
+    border: 20px rgb(169, 166, 166) solid ;
+    border-radius: 40px;
+}
+.regForm h2{
+    display: block;
+    margin:10px auto;
+    color: blue;
+    width: fit-content;
+    text-decoration: underline;
+}
+.regForm form label,.regForm form input{
+    display: block;
+    padding: 10px;
+    width: 400px;
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.regForm form input{
+    border-radius: 10px;
+    border: 1px black solid ;
+    background-color: bisque;
+}
+#regFormBtn{
+    margin-top: 20px;
+    background-color: aquamarine;
+    color: blueviolet;
+    width: 200px;
+}
+.resetPassword{
+    margin: 10px auto;
+    width: fit-content;
+    display: block;
+    font-size: 25px;
+}
+/*registration/login/reset's styles*/
+
+/* footer */
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    padding: 20px;
+}
+.socialIcons, .copyRight {
+    color: white;
+    margin: auto;
+    width: fit-content;
+    font-size: 25px;
+}
+.socialIcons a{
+    color: white;
+}
+/* footer */
+/* chat  */
+.open-button {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.chat{
+    display: none;
+    width: 350px;
+    height: 370px;
+    border: 3px black solid;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.chat h1, .msg{
+    margin-left: 5px;
+}
+.chat i{
+    color: blue;
+    margin-top: -25px;
+    margin-left: 200px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.msg{
+    font-size: 20px;
+    display: block;
+}
+textarea{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+}
+/* chat  */
+/*navigation*/
+#navigation{
+   display: none;
+   position: fixed;
+   top: 150px;
+   left: 40px;
+   font-size: 25px;
+   color: black;
+}
+#navigation li a{
+    color: black;
+}
+#menu{
+    width: 120px;
+    height: 50px;
+    position: fixed;
+    top: 80px;
+    left: 20px;
+    border-radius: 5px;
+}
+#X{
+    position: fixed;
+    top: 90px;
+    left: 150px;
+    cursor: pointer;
+}
+
+/*navigation*/
+/* slider  */
+#myCarousel{
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px black solid;
+    background-color: green;
+}
+#myCarousel li{
+    color: black;
+}
+
+.reklama{
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* slider  */
+
+.news{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.news:last-child{
+    margin-bottom: 30px;
+}
+.new{
+    width: 350px;
+    height: 250px;
+    border: 1px black solid;
+    background-color: rgb(25, 25, 221);
+    color: white;
+    padding: 5px;
+}
+.new h3{
+    text-align: center;
+    font-size: 30px;
+}
+.new p{
+    font-size: 16px;
+}
+.new span{
+    cursor: pointer;
+}
+.indexMain{
+    background-color: rgba(151, 250, 52, 0.718);
+}
+
+@media only screen and (max-width: 1000px){
+    .teamH2{
+        margin: 20px auto;
+        font-size: 40px;
+    }
+    .team{
+        height: 200px;
+        margin: 10px auto;
+        display: flex;
+        margin-bottom: 90px;
+    }
+    .member{
+        font-size: 20px;
+    }
+    .membersocialIcons{
+        font-size: 20px;
+    }
+    .productsH2{
+        width: fit-content;
+        margin: 20px auto;
+        font-size: 40px;
+    }
+    .products{
+        width: 95%;
+        height: 200px;
+        margin: 8px auto;
+        margin-bottom: 8px;
+    }
+    .product{
+        width: 22%;
+        height: 100%;
+        margin: 8px;
+        font-size: 18px;
+    }
+   
+
+}
+@media only screen and (max-width: 590px){
+    .teamH2{
+        margin: 5px auto;
+        font-size: 25px;
+    }
+    .team{
+        height: 180px;
+        margin: 5px auto;
+        display: flex;
+        margin-bottom: 90px;
+    }
+    .member{
+        font-size: 18px;
+    }
+    .team{
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        margin-bottom: 100px;
+    }
+    .member{
+        margin: 5px;
+        font-size: 20px;
+    }
+    .productsH2{
+        margin: 15px auto;
+        font-size: 30px;
+    }
+    .products{
+        width: 98%;
+        height: 150px;
+        margin: 5px auto;
+        margin-bottom: 5px;
+    }
+    .product{
+        width: 24%;
+        height: 100%;
+        margin: 5px;
+        font-size: 15px;
+    }
+    footer{
+        height: 110px;
+    }
+    .socialIcons, .copyRight {
+        font-size: 20px;
+    }
+   
+}
+@media only screen and (max-width: 444px){
+    .teamH2{
+        margin: 5px auto;
+        font-size: 25px;
+    }
+    .team{
+        width: 100%;
+        height: fit-content;
+        margin: 10px auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .member{
+        width: 95%;
+        height: 100%;
+        margin: 5px;
+    }
+    .productsH2{
+        width: fit-content;
+        margin: 20px auto;
+        font-size: 40px;
+    }
+    .products{
+        width: 95%;
+        height: fit-content;
+        margin: 10px auto;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .product{
+        width: 100%;
+        height: 100%;
+        margin: 10px;
+        font-size: 25px;
+    }
+    footer{
+        height: 100px;
+    }
+    .socialIcons, .copyRight {
+        font-size: 20px;
+    }
+}
+/* responsive  */

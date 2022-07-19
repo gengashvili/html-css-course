@@ -1,0 +1,615 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+header h1{
+    text-indent: -9999px;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note.png);
+    background-size: 100%;
+    margin-left: 75px;
+    margin-top: 15px;
+    position: absolute;
+}
+nav ul{
+    display: flex;
+    height: 30px;
+    font-size: 27px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+li{
+    padding: 5px;
+}
+nav ul li a{
+    color: white;
+}
+.socialicons{
+    width: 70px;
+    height: 140px;
+    position: fixed;
+    top: 150px;
+    right: 0;
+}
+.fb{
+    background-image: url(../img/fb.png) 
+}
+.insta{
+    background-image: url(../img/instagram.png);
+}
+.fb, .insta{
+    width: 60px;
+    height: 60px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.fb:hover{
+    background-image: url(../img/bluefb.png);
+}
+.insta:hover{
+    background-image: url(../img/redinsta.png);
+}
+h2{
+    display: block;
+    font-size: 30px;
+    margin-left: 75px;
+    margin-bottom: 30px;
+}
+.firstarticles{
+    display: flex;
+    margin: auto;
+    width: 92%;
+    height: 350px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.box{
+    width: 350px;
+    height: 300px;
+    border: black solid 1px;
+    margin-bottom: 10px;
+}
+.box:hover{
+    box-shadow: 1px 1px 1px 5px rgb(195, 194, 194) ;
+}
+.like{
+    background-image: url(../img/like.png);
+    width: 50px;
+    height: 50px;
+    margin-left: 85%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.like:hover{
+    background-image: url(../img/like\ 2.png);
+}
+.articlebox{
+    margin: auto;
+    align-items: center;
+}
+.soundimg{
+    width: 80px;
+    height: 80px;
+} 
+.soundimgs{
+    margin-left: 10px;
+    margin-top: 30px;
+    display: flex;  
+}
+h3{
+    margin: 15px;
+    font-size: 30px;
+}
+.artists{
+    font-size: 25px;
+    margin: 10px;
+}
+.articlebox a{
+    margin-left: 5px;
+    color: black;
+}
+.playlistsn{
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+}
+.pllist:hover{
+    background-color: rgb(166, 166, 166);
+    box-shadow: 1px 1px 1px 5px rgb(195, 194, 194) ;
+}
+h4{
+    margin-bottom: 30px;
+}
+.pllist{
+    margin: 30px auto;
+    font-size: 25px;
+    padding: 10px;
+}
+.plsoundimgs{
+    width: 400px;
+    margin: 30px auto;
+}
+.plsoundimg{
+    width: 90px;
+    height: 90px;
+}
+.thanks{
+    font-size: 40px;
+    margin: 60px auto;
+    width: 400px;
+}
+footer{
+    width: 100%;
+    height: 330px;
+    background-color: black;
+}
+.footersection{
+    width: 200px;
+    margin: 20px auto;
+}
+.footersection img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.footersection p{
+    color: white;
+    
+    font-size: 20px;
+}
+.lists{
+    margin-bottom: 40px;
+    margin: 25px
+}
+@media screen and (max-width: 1280px) {
+    header{
+        height: 80px;
+        margin-bottom: 25px;
+    }
+    header h1{
+        width: 50px;
+        height: 50px;
+        margin-left: 55px;
+        margin-top: 15px;
+    }
+    nav ul{
+        display: flex;
+        height: 30px;
+        font-size: 25px;
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+    li{
+        padding: 5px;
+    }
+    nav ul li a{
+        color: white;
+    }
+    .socialicons{
+        width: 50px;
+        height: 100px;
+        position: fixed;
+        top: 120px;
+        right: 0;
+    }
+    .fb, .insta{
+        width: 50px;
+        height: 50px;
+    }
+    h2{
+        display: block;
+        font-size: 25px;
+        margin-left: 55px;
+        margin-bottom: 25px;
+    }
+    .firstarticles{
+        display: flex;
+        margin: auto;
+        width: 92%;
+        height: 300px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .like{
+        width: 40px;
+        height: 40px;
+    }
+    .box{
+        width: 250px;
+        height: 250px;
+        border: black solid 1px;
+        margin-bottom: 10px;
+    }
+    .soundimg{
+        width: 55px;
+        height: 55px;
+    } 
+    h3{
+        margin: 10px;
+        font-size: 25px;
+    }
+    .artists{
+        font-size: 20px;
+        margin: 5px;
+    }
+    footer{
+        height: 230px;
+    }
+    .footersection img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+    }
+    .footersection p{
+        font-size: 15px;
+    }
+    .lists{
+        margin-bottom: 30px;
+        margin: 20px
+    }
+    .playlistsn{
+        width: 100%;
+        display: flex;
+        margin: 20px auto;
+    }
+    .pllist{
+        margin: 20px auto;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .plsoundimgs{
+        width: 400px;
+        margin: 30px auto;
+    }
+    .plsoundimg{
+        width: 70px;
+        height: 70px;
+    }
+    .thanks{
+        font-size: 35px;
+        margin: 55px auto;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    header{
+        height: 80px;
+        margin-bottom: 25px;
+    }
+    header h1{
+        width: 45px;
+        height: 45px;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
+    nav ul{
+        display: flex;
+        height: 30px;
+        font-size: 20px;
+        margin-left: 150px;
+    }
+    .socialicons{
+        width: 40px;
+        height: 80px;
+        position: fixed;
+        top: 100px;
+        right: 0;
+    }
+    .fb, .insta{
+        width: 40px;
+        height: 40px;
+    }
+    h2{
+        font-size: 30px;
+        margin-left: 45px;
+        margin-bottom: 20px;
+    }
+    .firstarticles{
+        display: flex;
+        width: 95%;
+        height: 300px;
+        margin-bottom: 55px;
+        margin:10px;
+    }
+    .like{
+        width: 45px;
+        height: 45px;
+        margin-left: 78%;
+    }
+    .box{
+        width: 210px;
+        height: 280px;
+        margin-bottom: 10px;
+    }
+    .soundimg{
+        width: 50px;
+        height: 50px;
+    } 
+    h3{
+        /* margin: 10px; */
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .artists{
+        font-size: 20px;
+        margin: 5px;
+    }
+    footer{
+        height: 190px;
+    }
+    .footersection img{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .footersection p{
+        font-size: 15px;
+    }
+    .lists{
+        margin-bottom: 10px;
+        margin: 10px
+    }
+    .playlistsn{
+        width: 100%;
+        display: flex;
+        margin: 20px auto;
+    }
+    .pllist{
+        margin:  auto;
+        font-size: 13px;
+        /* padding: 5px; */
+    }
+    .plsoundimgs{
+        width: 220px;
+        margin: 25px auto;
+    }
+    .plsoundimg{
+        width: 50px;
+        height: 50px;
+    }
+    .thanks{
+        font-size: 30px;
+        margin: 55px auto;
+        width: 270px
+    }
+}
+@media screen and (max-width: 700px) {
+    header{
+        height: 70px;
+        margin-bottom: 20px;
+    }
+    header h1{
+        width: 35px;
+        height: 35px;
+        margin-left: 40px;
+        margin-top: 14px;
+    }
+    nav ul{
+        display: flex;
+        height: 30px;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+    .socialicons{
+        width: 30px;
+        height: 60px;
+        position: fixed;
+        top: 68px;
+        right: 0;
+    }
+    .fb, .insta{
+        width: 30px;
+        height: 30px;
+    }
+    h2{
+        font-size: 18px;
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+    .firstarticles{
+        width: 98%;
+        height: 170px;
+        margin-bottom: 15px;
+    }
+    .articlebox a{
+        margin-left: 3px;
+        font-size: 12px;
+    }
+    .like{
+        width: 25px;
+        height: 25px;
+        margin-left: 75%;
+    }
+    .box{
+        width: 100px;
+        height: 150px;
+    }
+    .soundimg{
+        width: 23px;
+        height: 23px;
+    } 
+    .soundimgs{
+        margin-left: 3px;
+    }
+    h3{
+        margin: 10px;
+        font-size: 12px;
+    }
+    .artists{
+        font-size: 10px;
+        margin: 5px;
+    }
+    footer{
+        align-items: center;
+        height: 150px;
+    }
+    .footersection img{
+        width: 60px;
+        height: 60px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        padding-left: 20px;
+    }
+    .footersection p{
+        font-size: 15px;
+    }
+    .lists{
+        margin-bottom: 10px;
+        margin: 5px
+    }
+    .playlistsn{
+        width: 100%;
+        display: flex;
+        margin: 20px auto;
+    }
+    .pllist{
+        margin:  auto;
+        font-size: 10px;
+        /* padding: 5px; */
+    }
+    .plsoundimgs{
+        width: 180px;
+        margin: 20px auto;
+    }
+    .plsoundimg{
+        width: 40px;
+        height: 40px;
+    }
+    .thanks{
+        font-size: 20px;
+        margin: 40px auto;
+        width: 180px
+    }
+}
+@media screen and (max-width: 390px) {
+    header{
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    header h1{
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+        margin-top: 7.5px;
+    }
+    nav ul{
+        display: flex;
+        height: 30px;
+        font-size: 18px;
+        margin-left: 50px;
+        margin-top: 7.5px;
+    }
+    .socialicons{
+        width: 40px;
+        height: 80px;
+        position: fixed;
+        top: 52px;
+        right: 0;
+    }
+    .fb, .insta{
+        width: 40px;
+        height: 40px;
+    }
+    h2{
+        font-size: 25px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .firstarticles{
+        width: 98%;
+        height: 950px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        display: block;
+    }
+    .articlebox a{
+        margin-left: 35px;
+        font-size: 20px;
+    }
+    .like{
+        width: 55px;
+        height: 55px;
+        margin-left: 80%;
+    }
+    .box{
+        width: 280px;
+        height: 260px;
+        margin: 10px auto ;
+    }
+    .soundimg{
+        width: 65px;
+        height: 65px;
+    } 
+    .soundimgs{
+        margin-left: 10px;
+    }
+    h3{
+        margin: 10px;
+        font-size: 30px;
+    }
+    .artists{
+        font-size: 25px;
+        margin: 5px;
+    }
+    footer{
+        align-items: center;
+        height: 120px;
+    }
+    .footersection{
+        width: 100px;
+        margin: 20px auto;
+    }
+    .footersection img{
+        width: 40px;
+        height: 40px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .footersection p{
+        font-size: 10px;
+    }
+    .lists{
+        margin-bottom: 10px;
+        margin: 5px
+    }
+    .playlistsn{
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+    }
+    .pllist{
+        margin: auto;
+        font-size: 25px;
+        padding-left: 35px;
+    }
+    .plsoundimgs{
+        width: 220px;
+        margin: 20px auto;
+    }
+    .plsoundimg{
+        width: 50px;
+        height: 50px;
+    }
+    .thanks{
+        font-size: 30px;
+        margin: 20px auto;
+        width: 300px
+    }
+}
+
+
+
